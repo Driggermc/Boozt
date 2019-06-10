@@ -1,19 +1,17 @@
 .header__logo img {
-    width: auto;
-    height: 100%; 
+    width: auto !important;
+    height: 100% !important;
+
     
-
-
 }
 
 .header__deck {
-    height: 80px; 
-
-
+    height: 80px !important;
+    
 
 }
 
 .header__deck .container {
-    height: 80px;
+    height: 80px !important;
 
 }
