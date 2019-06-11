@@ -1,17 +1,12 @@
-.header__logo img {
-    width: auto !important;
-    height: 100% !important;
-
+.header-cs span {
+    color: #ffffff;
+    padding-right: 5px; 
+    font-family: "source sans pro";
+    font-size: 11px;
+    font-weight: 600; 
     
 }
 
-.header__deck {
-    height: 80px !important;
-    
-
-}
-
-.header__deck .container {
-    height: 80px !important;
-
+.header-cs img {
+    padding-right: 30px; 
 }
