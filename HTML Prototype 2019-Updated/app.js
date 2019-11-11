@@ -863,8 +863,8 @@ var local = true;
 var baseUrl;
 
 if (!local) baseUrl = 'https://denbue.github.io/detail/2';
-else baseUrl = "https://driggermc.github.io/Boozt/HTML Prototype 2019-Updated/"; 
-//baseUrl = "http://localhost:8887"
+//else baseUrl = "https://driggermc.github.io/Boozt/HTML Prototype 2019-Updated"; 
+baseUrl = "http://localhost:8887"
 //else baseUrl = 'https://boozt.local/_proto';
 console.log(baseUrl);
 
