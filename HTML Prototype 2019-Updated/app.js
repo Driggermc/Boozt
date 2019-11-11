@@ -862,7 +862,7 @@ var video;
 var local = true;
 var baseUrl;
 
-if (!local) baseUrl = 'https://denbue.github.io/detail/2';
+//if (!local) baseUrl = 'https://denbue.github.io/detail/2';
 //else baseUrl = "https://driggermc.github.io/Boozt/HTML Prototype 2019-Updated"; 
 baseUrl = "https://driggermc.github.io/Boozt/HTML Prototype 2019-Updated/"
 //baseUrl = "http://localhost:8887"
