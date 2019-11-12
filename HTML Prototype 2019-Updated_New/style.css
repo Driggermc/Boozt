@@ -4,6 +4,16 @@ img {
   margin: 0 auto;
   display: block; }
 
+span {
+  font-size: 13px !important;
+}
+
+.prd-item-number {
+  font-size: 10px !important;
+}
+
+
+
 /* line 9, stdin */
 .button {
   line-height: 30px;
@@ -606,7 +616,7 @@ h3,
   padding: 0 24px !important;
   font-weight: 400 !important;
   color: #bbb !important;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.8px; }
   /* line 623, stdin */
   .product-breadcrumbs a {
@@ -895,9 +905,9 @@ h3,
       text-align: center;
       line-height: 30px;
       font-weight: 600;
-      font-size: 13px;
+      font-size: 15px;
       letter-spacing: 1px;
-      padding: 0 8px;
+      /*padding: 0 8px;*/
       width: auto;
       text-transform: uppercase;
       margin: 0 44px 0 0; }
@@ -1175,7 +1185,7 @@ h3,
     font-size: 13px;
     color: #4a4a4a;
     line-height: 21px;
-    padding: 24px 0 0;
+    padding: 24px 24px 0 24px;
     margin-bottom: 22px; }
     /* line 1270, stdin */
     .product-data__material-block > strong {
@@ -1193,7 +1203,8 @@ h3,
       float: left;
       width: 33%;
       margin-bottom: 32px;
-      padding-left: 26px; }
+      padding-left: 24px;
+      padding-right: 24px; }
     /* line 1290, stdin */
     .product-data__icons-block:empty {
       margin-bottom: 22px; }
