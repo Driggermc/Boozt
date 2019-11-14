@@ -759,7 +759,7 @@ h3,
 /* line 778, stdin */
 .slick-slide {
   overflow: hidden;
-  cursor: zoom-in;
+  cursor: pointer;
   margin: 0 4px;
   float: left;
   min-height: 1px;
