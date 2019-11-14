@@ -184,12 +184,13 @@ h3,
     text-decoration: none; }
   /* line 200, stdin */
   .product-details .splash-mid {
-    background: #f1a73b; }
+    background: #048A7D; }
   /* line 204, stdin */
   .product-details .discount-expiry-notification {
     background: #fafafa;
     color: #f00;
-    text-align: left; }
+    text-align: left;
+    margin-right: 8px; }
     /* line 209, stdin */
     .product-details .discount-expiry-notification .fr {
       float: none; }
@@ -1217,7 +1218,7 @@ h3,
 
 /* line 1303, stdin */
 #sizeguide {
-  margin-bottom: -30px; }
+  margin-bottom: -32px; }
 
 /* line 1307, stdin */
 .size-guide-table,
@@ -1233,6 +1234,7 @@ h3,
 .size-guide-table table {
   margin: 0;
   width: 100%;
+  
   background: #fff;
   border: 0; }
   /* line 1324, stdin */
