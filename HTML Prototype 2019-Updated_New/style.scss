@@ -1,9 +1,15 @@
 img {
-    //max-height: 600px;
-    //height: 100%;
     width: 100%;
     margin: 0 auto;
     display: block;
+}
+
+span {
+    font-size: 13px !important;
+}
+
+.prd-item-number {
+    font-size: 10px !important;
 }
 
 .button {
@@ -198,13 +204,14 @@ h3,
     }
 
     .splash-mid {
-        background: #f1a73b;
+        background: #048A7D;
     }
 
     .discount-expiry-notification {
         background: #fafafa;
         color: #f00;
         text-align: left;
+        margin-right: 8px;
 
         .fr {
             float: none;
@@ -617,7 +624,7 @@ h3,
     padding: 0 24px !important;
     font-weight: 400 !important;
     color: #bbb !important;
-    font-size: 12px;
+    font-size: 13px;
     letter-spacing: 0.8px;
 
     a {
@@ -777,7 +784,7 @@ h3,
 
 .slick-slide {
     overflow: hidden;
-    cursor: zoom-in;
+    cursor: pointer;
     margin: 0 4px;
     float: left;
     min-height: 1px;
@@ -950,7 +957,6 @@ h3,
             font-weight: 600;
             font-size: 13px;
             letter-spacing: 1px;
-            padding: 0 8px;
             width: auto;
             text-transform: uppercase;
             margin: 0 44px 0 0;
@@ -1264,7 +1270,7 @@ h3,
         font-size: 13px;
         color: #4a4a4a;
         line-height: 21px;
-        padding: 24px 0 0;
+        padding: 24px 24px 0;
         margin-bottom: 22px;
 
         > strong {
@@ -1279,12 +1285,26 @@ h3,
         padding-top: 57px;
         width: 75%;
 
-        .icon-tags__tag {
+        .icon-tags__tag,
+        .product-information__fit {
             box-sizing: border-box;
             float: left;
             width: 33%;
             margin-bottom: 32px;
-            padding-left: 26px;
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+
+        .product-information__fit {
+            margin-top: -32px;
+
+            strong {
+                display: block;
+                font-size: 13px;
+                color: #000;
+                letter-spacing: 1px;
+                margin-bottom: 15px;
+            }
         }
 
         &:empty {
@@ -1301,7 +1321,7 @@ h3,
 }
 
 #sizeguide {
-    margin-bottom: -30px;
+    margin-bottom: -32px;
 }
 
 .size-guide-table,
