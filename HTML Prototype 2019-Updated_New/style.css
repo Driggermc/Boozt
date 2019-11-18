@@ -1190,7 +1190,7 @@ h3,
       display: block;
       color: #000;
       letter-spacing: 1px;
-      margin-bottom: 11px; }
+      margin-bottom: 8px; }
   /* line 1284, stdin */
   .product-data__icons-block {
     padding-top: 57px;
@@ -1213,7 +1213,7 @@ h3,
         font-size: 13px;
         color: #000;
         letter-spacing: 1px;
-        margin-bottom: 15px; }
+        margin-bottom: 8px; }
     /* line 1310, stdin */
     .product-data__icons-block:empty {
       margin-bottom: 22px; }
